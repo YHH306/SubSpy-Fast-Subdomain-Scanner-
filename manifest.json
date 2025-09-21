@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Subdomain Scanner (DoH)",
+  "version": "1.0",
+  "description": "Quickly scan common subdomains of the active tab's domain using DNS-over-HTTPS.",
+  "icons": {
+    "48": "icons/domain.png",
+    "128": "icons/domain.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://cloudflare-dns.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Subdomain Scanner"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

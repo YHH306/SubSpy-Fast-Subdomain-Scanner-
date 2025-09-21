@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SubSpy</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🔍 SubSpy</h1>
+      <div id="status" class="status">Ready</div>
+    </header>
+
+    <section class="card controls">
+      <div class="btn-row">
+        <button id="startBtn" class="btn primary">Start</button>
+        <button id="pauseBtn" class="btn secondary" disabled>Pause</button>
+        <button id="stopBtn" class="btn danger" disabled>Stop</button>
+        <button id="downloadBtn" class="btn neutral hidden">Download</button>
+      </div>
+
+      <div class="meta">
+        <div id="counter">Found: 0 — Checked: 0</div>
+        <div class="progress-wrap">
+          <div class="progress-bar" id="progressBar" style="width:0%"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Subdomains Found</h3>
+      <ul id="results" class="results"></ul>
+    </section>
+
+    <section class="card">
+      <h3>Wordlist</h3>
+      <div class="wordlist-controls">
+        <label class="upload-label">
+          <span class="btn upload">📁 Upload .txt</span>
+          <input id="uploadWordlist" type="file" accept=".txt" hidden />
+        </label>
+        <span id="uploadFileName" class="file-name">No file selected</span>
+        <button id="resetWordlist" class="btn neutral">Reset</button>
+      </div>
+      <div class="note">Uploaded wordlist is saved locally for future scans.</div>
+    </section>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
