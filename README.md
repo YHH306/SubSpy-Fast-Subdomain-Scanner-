@@ -49,9 +49,6 @@ if (typeof browser === "undefined") {
 5. Export found subdomains using the **Download** button
 6. Click individual subdomains to copy them to your clipboard
 
-## Screenshots / Demo
-
-*Add screenshots or GIFs of the extension in action here for better visibility.*
 
 ## Contributing
 
