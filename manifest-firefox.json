@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "SubSpy (DoH)",
+  "version": "1.0",
+  "description": "Quickly scan common subdomains of the active tab's domain using DNS-over-HTTPS.",
+  "icons": {
+    "16": "icons/domain.png",
+    "32": "icons/domain.png",
+    "48": "icons/domain.png",
+    "128": "icons/domain.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://cloudflare-dns.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SubSpy"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "applications": {
+    "gecko": {
+      "id": "subspy@subspyco.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
